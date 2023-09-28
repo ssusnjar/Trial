@@ -1,0 +1,17 @@
+.section{
+    margin-top: 120px;
+    min-height: 30vh;
+    background: url('../../assets/section.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.title{
+    color: white;
+    font-size: 70px;
+    max-width: 80%;
+    margin: 0 auto;
+}

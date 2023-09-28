@@ -1,0 +1,62 @@
+.usluge{
+    background-color: var(--background-color);
+    margin-top: 100px; 
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+ 
+    font-size: 70px;
+}
+
+.main{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.column{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 50px;
+}
+.txt{
+    font-family: poppins;
+}
+
+.title2{
+    font-size: 25px;
+}
+.paragraph{
+    font-size: 20px;
+}
+
+.button{
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    font-size: 16px;
+    padding: 15px 32px;
+    color: white;
+    font-size: 20px;
+    font-weight: medium;
+   
+}
+
+.parent{
+    display: flex;
+    justify-content: end;
+    width: 80%;
+}

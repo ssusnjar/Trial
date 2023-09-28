@@ -1,0 +1,24 @@
+.footer{
+    background-color: var(--dark-color);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+
+}
+
+.column{
+    flex:1;
+    padding: 0 10px;
+    margin:0  8%;
+
+}
+
+.title{
+    border-bottom: 1px solid var(--main-color);
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 25px;
+}
