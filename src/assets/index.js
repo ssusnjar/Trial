@@ -10,6 +10,7 @@ import location from "./location.svg";
 import phone from "./phone.svg";
 import mail from "./mail.svg";
 import HomePageImg from "./HomePageImg.png";
+import Company from "./CompanyName.svg";
 
 export {
   Logo,
@@ -24,4 +25,5 @@ export {
   phone,
   mail,
   HomePageImg,
+  Company,
 };
