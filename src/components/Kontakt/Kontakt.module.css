@@ -1,0 +1,15 @@
+.kontakt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:100px 0 ;
+}
+
+
+.location{
+    margin-bottom: 50px;
+}
+.line{
+    width: 30%;
+}

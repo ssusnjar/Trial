@@ -1,0 +1,21 @@
+.about{
+   width: 30%;
+    margin: 0 auto;
+   
+    
+}
+.line{
+    display: flex;
+    
+}
+
+.description{
+    font-family: "popins", sans-serif;
+    font-size: 20px;
+}
+
+.icon{
+    width: 40px;
+    height: auto;
+    margin: 15px;
+}
