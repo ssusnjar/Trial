@@ -3,7 +3,9 @@ import Logo from "../../assets/CompanyName.svg";
 import styles from "./Header.module.css";
 import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import Logo1 from "../../assets/download.svg";
 function Header() {
   const [navbar, setNavbar] = useState(false);
 
@@ -22,11 +24,19 @@ function Header() {
       <nav className={navbar ? styles.navbarActive : styles.navbar}>
         <div className={styles.navbarLeft}>
           <a href="/">
-            <img src={Logo} className={styles.logo}></img>
+            <img src={Logo1} className={styles.logo}></img>
           </a>
         </div>
 
         <div className={styles.navbarRight}>
+          <input
+            type="checkbox"
+            id={styles.check}
+            className={styles.check}
+          ></input>
+          <label for={styles.check} className={styles.checkbtn}>
+            <FontAwesomeIcon icon={faBars} />
+          </label>
           <ul className={styles.navbarList}>
             <li>
               <NavLink

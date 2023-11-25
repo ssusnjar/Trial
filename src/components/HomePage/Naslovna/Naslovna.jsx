@@ -3,7 +3,7 @@ import styles from "./Naslovna.module.css";
 
 const Naslovna = () => {
   return (
-    <div>
+    <div className={styles.main}>
       <div className={styles.header}>
         <div className="wrapper">
           <div className={styles.cta}>
