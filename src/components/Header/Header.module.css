@@ -119,7 +119,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 10px;
     position: fixed;
     top: 0;
     left: 0;
@@ -131,24 +131,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 10px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 100;
+    /* z-index: 100; */
     width: 100%;
-    margin: 0 auto;
-    padding-top: 20px;
-    padding-left: 10%;
-    padding-right: 10%; 
+    margin: 0 auto; 
     background-color:white;
     backdrop-filter: blur(10px); 
 }
 
 .logo{
     padding: 0 100px;
-    width: 100%; 
     max-width: 350px;
 }
 
@@ -173,14 +169,14 @@ nav ul li{
 
 .active{
     color:black;
-    font-size: 17px;
+    font-size: 14px;
     border-bottom: var(--main-color) 2px solid;
     padding: 7px 13px;
 }
 
 .inactive{
     color: black;
-    font-size: 17px;
+    font-size: 14px;
     padding: 7px 13px;
 }
 

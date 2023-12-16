@@ -1,32 +1,27 @@
 
 .header{
-    min-height: 90vh;
-    background: url('../../../assets/Header.png');
+    min-height: 70vh;
+    background: url('../../../assets/Header darker.png');
     background-size: cover;
     background-position: center;
 }
 
 
-.header .wrapper{
-    position: relative;
-    height: 100vh;
-}
-
-.header .cta{
-    position: absolute;
-    top:20%;
-    left: 10%;
-    width: 80%;
-}
-
-.cta{
+.text{
+    font-size: 64px;
     color: white;
-    font-size: 70px;
-    line-height: 0.4;
-}
-
-.boldTxt{
+    display: flex;
+    align-items: center;
     font-weight: bold;
+    height: 600px;
+    padding-left: 50px;
+    
+   
+}
+.title{
+    border-left: 3px solid var(--main-color);
+    padding-left: 10px;
+    padding-right: 50px;
 }
 
 .numbers{
@@ -36,36 +31,49 @@
 }
 
 .projectsNumber{
-    width: 190px;
-    height: 190px;
+    width: 150px;
     background-color: var(--dark-color);
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding: 20px;
+    word-wrap: break-word;
 }
 
 .yearNumber{
-    width: 190px;
-    height: 190px;
+    width: 150px;
     background-color: var(--main-color);
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding: 20px;
+    word-wrap: break-word;
 }
 
 .num{
     margin: 0;
-    font-size: 70px;
+    font-size: 40px;
     font-weight: bold;
-    line-height: 60px;
 }
 
 .txt{
-    font-size: 19px;
+    font-size: 14px;
 } 
+
+@media screen and (max-width: 500px) {
+
+    .title{
+        font-size: 50px;
+    }
+    .numbers{
+        width: 100%;
+    }
+
+    .yearNumber, .projectsNumber{
+        width: 50%;
+    }
+}

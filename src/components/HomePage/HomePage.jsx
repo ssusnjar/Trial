@@ -8,8 +8,8 @@ const HomePage = () => {
   return (
     <div className={styles.main}>
       <Naslovna />
-      <Projekti />
-      <Usluge />
+      {/* <Projekti />
+      <Usluge /> */}
     </div>
   );
 };

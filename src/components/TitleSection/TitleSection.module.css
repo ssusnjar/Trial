@@ -1,17 +1,16 @@
 .section{
-    
     min-height: 30vh;
     background: url('../../assets/section.png');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    
+    width: 100%;
 }
 
 .title{
     color: white;
     font-size: 70px;
-    max-width: 80%;
+    max-width: 64%;
     margin: 0 auto;
 }

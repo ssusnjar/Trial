@@ -5,12 +5,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 350px;
-   
-
+ 
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .Logo{
-    width: 100%;    
+    max-width: 100%;    
 }
 
 .column{
@@ -25,3 +26,28 @@
     width: 80%;
     font-size: 25px;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+      flex-direction: column; 
+      align-items: center; 
+      margin: 0 auto;
+    }
+
+    
+    .column {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .Logo{
+        max-width: 50%;
+        align-self: center;
+    }
+    
+    .column {
+      width: 100%;
+    }
+
+
+  }

@@ -12,7 +12,7 @@ const Footer = () => {
         <h3 className={styles.title}>ADRESA I SJEDIŠTE</h3>
         <p>Ulica Velimira Terzića 17</p>
         <p>21 000 Split</p>
-      </div>{" "}
+      </div>
       <div className={styles.column}>
         <h3 className={styles.title}>KONTAKT</h3>
         <p>64026545</p>

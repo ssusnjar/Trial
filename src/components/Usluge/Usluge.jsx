@@ -6,7 +6,8 @@ import { Img1, Img2, Img3 } from "../../assets";
 
 const Usluge = () => {
   return (
-    <div>
+    <div className={styles.main}>
+      <div className={styles.razmak}></div>
       <Section title="Usluge" />
       <div className={styles.usluge}>
         <Article
