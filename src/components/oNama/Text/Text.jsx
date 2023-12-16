@@ -6,17 +6,17 @@ const Text = () => {
     <div>
       {" "}
       <p className={Styles.firstTxt}>
-        Društvo s ograničenom odgovornošću Teh-gradnja, je građevinska tvrtka
-        registrirana 1994. godine i u cijelosti je u privatnom vlasništvu
-        osnivača inženjera građevine Ilije Beara. Registrirana je za izvođenje
-        radova gradnje i sanacije objekata visokogradnje i niskogradnje.
-        Prepoznatljiva je na domaćem tržištu jer je tvrtka tijekom više od 25
-        godina poslovanja stekla iznimno iskustvo u gradnji i sanaciji objekata
-        različitih namjena, u skladu s najvišim stručnim standardima. Izrasla je
-        u modernu tvrtku visokih poslovnih vrijednosti, bogate tradicije i
-        kreativnih iskoraka mladih stručnjaka.
+        Tvrtka Trial d.o.o. je osnovana 2015. na temelju dugogodišnjeg iskustva
+        u radu na ispitivanju građevinskih materijala te njihovoj primjeni na
+        raznim projektima. Od trenutka osnivanja naš stručan tim čine najbolji
+        stručnjaci koji svojim inovativnim inženjerskim rješenjima svakodnevno
+        unaprijeđuju procese u građevinarstvu. Naše područje djelovanja ibuhvaća
+        široki spektar radova u građevinarstvu počevši od cjelokupne
+        visokogradnje i niskogradnje, sve inženjerske i pomorske građevine, sve
+        do različitih terenskih istražnih radova. Naša dugoročna pouzdanost je
+        prepoznata diljem Hrvatske, te u inozemstvu (Slovenija, BiH, Crna Gora).
       </p>
-      <div className={Styles.background}>
+      {/* <div className={Styles.background}>
         <div className={Styles.secondTxt}>
           <h3 className={Styles.title}>Što nas izdvaja?</h3>
           <div className={Styles.list}>
@@ -31,7 +31,7 @@ const Text = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

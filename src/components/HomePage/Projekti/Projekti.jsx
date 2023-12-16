@@ -1,6 +1,11 @@
 import React from "react";
 import styles from "./Projekti.module.css";
 import icon from "../../../assets/icon.svg";
+import { Link } from "react-router-dom";
+
+const scrollToTop = () => {
+  window.scrollTo(0, 0);
+};
 
 const Projekti = () => {
   return (
@@ -39,7 +44,9 @@ const Projekti = () => {
         </div>
       </div>
       <div className={styles.parent}>
-        <button className={styles.button}>SVE USLUGE</button>
+        <Link to="/Usluge" onClick={scrollToTop}>
+          <button className={styles.button}>SVE USLUGE</button>
+        </Link>
       </div>
     </div>
   );

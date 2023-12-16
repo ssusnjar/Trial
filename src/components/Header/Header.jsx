@@ -6,6 +6,8 @@ import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import Logo1 from "../../assets/download.svg";
+import Logo2 from "../../../public/Logonovo.png";
+
 function Header() {
   const [navbar, setNavbar] = useState(false);
 
@@ -16,7 +18,13 @@ function Header() {
       setNavbar(false);
     }
   };
+  const toggleNavbar = () => {
+    setNavbar(!navbar);
+  };
 
+  const closeNavbar = () => {
+    setNavbar(false);
+  };
   window.addEventListener("scroll", changeBackground);
 
   return (
@@ -33,6 +41,8 @@ function Header() {
             type="checkbox"
             id={styles.check}
             className={styles.check}
+            checked={navbar}
+            onChange={toggleNavbar}
           ></input>
           <label for={styles.check} className={styles.checkbtn}>
             <FontAwesomeIcon icon={faBars} />
@@ -44,6 +54,7 @@ function Header() {
                 className={({ isActive }) =>
                   isActive ? styles.active : styles.inactive
                 }
+                onClick={closeNavbar}
               >
                 Početna
               </NavLink>
@@ -54,6 +65,7 @@ function Header() {
                 className={({ isActive }) =>
                   isActive ? styles.active : styles.inactive
                 }
+                onClick={closeNavbar}
               >
                 O nama
               </NavLink>
@@ -64,6 +76,7 @@ function Header() {
                 className={({ isActive }) =>
                   isActive ? styles.active : styles.inactive
                 }
+                onClick={closeNavbar}
               >
                 Usluge
               </NavLink>
@@ -74,6 +87,7 @@ function Header() {
                 className={({ isActive }) =>
                   isActive ? styles.active : styles.inactive
                 }
+                onClick={closeNavbar}
               >
                 Projekti
               </NavLink>
@@ -84,6 +98,7 @@ function Header() {
                 className={({ isActive }) =>
                   isActive ? styles.active : styles.inactive
                 }
+                onClick={closeNavbar}
               >
                 Kontakt
               </NavLink>

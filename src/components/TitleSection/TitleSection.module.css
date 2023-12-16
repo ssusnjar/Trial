@@ -1,5 +1,5 @@
 .section{
-    min-height: 30vh;
+    min-height:35vh;
     background: url('../../assets/section.png');
     background-size: cover;
     background-position: center;
@@ -13,4 +13,5 @@
     font-size: 70px;
     max-width: 64%;
     margin: 0 auto;
+    padding-top: 50px;
 }

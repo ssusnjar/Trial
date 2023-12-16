@@ -2,7 +2,11 @@ import React from "react";
 import styles from "./Projekti.module.css";
 import Section from "../TitleSection/TitleSection";
 import Article from "./Article/Article";
-import { Img1, Img2, Img3 } from "../../assets";
+import Supetar from "../../../public/DVDSupetar.png";
+import Pelješac from "../../../public/PelješacPristup.png";
+import Sinj from "../../../public/SportskaDvoranaSinj.png";
+import RibarskaLuka from "../../../public/RibarskaLukaBrizine.png";
+import SudSplit from "../../../public/OpcinskiSudSplit.png";
 
 const Projekti = () => {
   return (
@@ -10,31 +14,31 @@ const Projekti = () => {
       <Section title="Projekti" />
       <div className={styles.usluge}>
         <Article
-          image={Img1}
-          title="Čvor Matulji"
+          image={Supetar}
+          title="DVD Supetar"
           description="Hrvatska"
-          year="2018-2020"
+          year="2020-2022"
         />
         <Article
-          image={Img2}
+          image={Pelješac}
           title="Istarski ipsilon"
           description="Hrvatska"
           year="2018-2020"
         />
         <Article
-          image={Img3}
+          image={Sinj}
           title="Čvor Matulji"
           description="Hrvatska"
           year="2018-2020"
         />
         <Article
-          image={Img2}
+          image={RibarskaLuka}
           title="Istarski ipsilon"
           description="Hrvatska"
           year="2018-2020"
         />
         <Article
-          image={Img1}
+          image={SudSplit}
           title="Čvor Matulji"
           description="Hrvatska"
           year="2018-2020"

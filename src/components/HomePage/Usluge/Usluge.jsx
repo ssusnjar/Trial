@@ -2,6 +2,11 @@ import React from "react";
 import styles from "./Usluge.module.css";
 import icon from "../../../assets/icon.svg";
 import { Img1, Img2, Img3 } from "../../../assets";
+import { Link } from "react-router-dom";
+
+const scrollToTop = () => {
+  window.scrollTo(0, 0);
+};
 const Usluge = () => {
   return (
     <div className={styles.usluge}>
@@ -39,7 +44,9 @@ const Usluge = () => {
         </div>
       </div>
       <div className={styles.parent}>
-        <button className={styles.button}>SVI PROJEKTI</button>
+        <Link to="/Projekti" onClick={scrollToTop}>
+          <button className={styles.button}>SVI PROJEKTI</button>
+        </Link>
       </div>
     </div>
   );

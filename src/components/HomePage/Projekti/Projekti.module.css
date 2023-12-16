@@ -1,6 +1,7 @@
 .usluge{
     background-color: var(--background-color);
     margin-top: 100px; 
+    padding-top: 70px;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -10,7 +11,7 @@
 
 .title{
  
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .main{
@@ -34,10 +35,10 @@
 }
 
 .title2{
-    font-size: 25px;
+    font-size: 20px;
 }
 .paragraph{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .button{
@@ -48,9 +49,9 @@
     text-decoration: none;
     width: 200px;
     font-size: 16px;
-    padding: 15px 32px;
+    padding: 13px 30px;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: medium;
    
 }
