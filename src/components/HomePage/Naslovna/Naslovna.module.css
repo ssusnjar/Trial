@@ -1,7 +1,7 @@
 
 .header{
     min-height: 70vh;
-    background: url('../../../public/Headerdarker.png');
+    background: url('Headerdarker.png');
     background-size: cover;
     background-position: center;
 }
