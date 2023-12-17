@@ -1,6 +1,5 @@
 .usluge{
     margin: 80px 0;
-    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -13,7 +12,7 @@
 }
 
 .main{
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -22,12 +21,13 @@
 
 
 .column{
-    width: 22%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 0 50px;
+    margin: 0px 10px;
+    padding-bottom: 30px;
 }
 .txt{
     font-family: poppins;
@@ -52,7 +52,7 @@
     color: white;
     font-size: 17px;
     font-weight: medium;
-   
+    cursor: pointer;
 }
 
 .parent{
@@ -60,4 +60,27 @@
     justify-content: end;
     width: 80%;
     margin-bottom: 10vh;
+}
+
+.icon{
+    width: 100%;
+}
+
+@media (max-width:768px){
+
+
+    .title{
+        text-align: center;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .parent{
+        justify-content: center;
+    }
+
 }

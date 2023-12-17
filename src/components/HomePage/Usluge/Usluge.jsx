@@ -3,6 +3,9 @@ import styles from "./Usluge.module.css";
 import icon from "../../../assets/icon.svg";
 import { Img1, Img2, Img3 } from "../../../assets";
 import { Link } from "react-router-dom";
+import Supetar from "../../../../public/DVDSupetar.png";
+import Pelješac from "../../../../public/PelješacPristup.png";
+import Sinj from "../../../../public/SportskaDvoranaSinj.png";
 
 const scrollToTop = () => {
   window.scrollTo(0, 0);
@@ -13,33 +16,21 @@ const Usluge = () => {
       <h1 className={styles.title}> Posljednji projekti</h1>
       <div className={styles.main}>
         <div className={styles.column}>
-          <img src={Img1} className={styles.icon}></img>
+          <img src={Supetar} className={styles.icon}></img>
           <div className={styles.txt}>
-            <h3 className={styles.title2}> Project planning</h3>
-            <p className={styles.paragraph}>
-              Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih
-              Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih
-            </p>
+            <h3 className={styles.title2}> DVD Supetar</h3>
           </div>
         </div>
         <div className={styles.column}>
-          <img src={Img2} className={styles.icon}></img>
+          <img src={Pelješac} className={styles.icon}></img>
           <div className={styles.txt}>
-            <h3 className={styles.title2}> Project planning</h3>
-            <p className={styles.paragraph}>
-              Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih
-              Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih
-            </p>
+            <h3 className={styles.title2}> Pelješac</h3>
           </div>
         </div>
         <div className={styles.column}>
-          <img src={Img3} className={styles.icon}></img>
+          <img src={Sinj} className={styles.icon}></img>
           <div className={styles.txt}>
-            <h3 className={styles.title2}> Project planning</h3>
-            <p className={styles.paragraph}>
-              Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih
-              Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih
-            </p>
+            <h3 className={styles.title2}> Sinj</h3>
           </div>
         </div>
       </div>
