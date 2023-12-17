@@ -10,7 +10,7 @@ const Text = () => {
         u radu na ispitivanju građevinskih materijala te njihovoj primjeni na
         raznim projektima. Od trenutka osnivanja naš stručan tim čine najbolji
         stručnjaci koji svojim inovativnim inženjerskim rješenjima svakodnevno
-        unaprijeđuju procese u građevinarstvu. Naše područje djelovanja ibuhvaća
+        unaprijeđuju procese u građevinarstvu. Naše područje djelovanja obuhvaća
         široki spektar radova u građevinarstvu počevši od cjelokupne
         visokogradnje i niskogradnje, sve inženjerske i pomorske građevine, sve
         do različitih terenskih istražnih radova. Naša dugoročna pouzdanost je

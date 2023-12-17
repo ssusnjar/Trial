@@ -7,7 +7,7 @@ import Images from "./Images/Images";
 const ONama = () => {
   return (
     <div>
-      <Section title="O nama" />
+      {/* <Section title="O nama" /> */}
       <div className={Styles.main}>
         <Text />
         <div className={Styles.pictures}>

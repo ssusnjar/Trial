@@ -7,7 +7,7 @@ import Section from "../TitleSection/TitleSection";
 const Kontakt = () => {
   return (
     <div>
-      <Section title="Kontakt" />
+      {/* <Section title="Kontakt" /> */}
       <div className={styles.kontakt}>
         <p className={styles.location}>
           <iframe

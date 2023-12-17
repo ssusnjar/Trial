@@ -11,7 +11,7 @@ import SudSplit from "../../../public/OpcinskiSudSplit.png";
 const Projekti = () => {
   return (
     <div>
-      <Section title="Projekti" />
+      {/* <Section title="Projekti" /> */}
       <div className={styles.usluge}>
         <Article
           image={Supetar}
@@ -21,25 +21,67 @@ const Projekti = () => {
         />
         <Article
           image={Pelješac}
-          title="Istarski ipsilon"
+          title="Pelješac"
           description="Hrvatska"
           year="2018-2020"
         />
         <Article
           image={Sinj}
-          title="Čvor Matulji"
+          title="Sinj"
           description="Hrvatska"
           year="2018-2020"
         />
         <Article
           image={RibarskaLuka}
-          title="Istarski ipsilon"
+          title="RIbarska luka"
           description="Hrvatska"
           year="2018-2020"
         />
         <Article
           image={SudSplit}
-          title="Čvor Matulji"
+          title="Sud Split"
+          description="Hrvatska"
+          year="2018-2020"
+        />
+        <Article
+          image={RibarskaLuka}
+          title="RIbarska luka"
+          description="Hrvatska"
+          year="2018-2020"
+        />
+        <Article
+          image={Supetar}
+          title="DVD Supetar"
+          description="Hrvatska"
+          year="2020-2022"
+        />
+        <Article
+          image={Pelješac}
+          title="Pelješac"
+          description="Hrvatska"
+          year="2018-2020"
+        />
+        <Article
+          image={Sinj}
+          title="Sinj"
+          description="Hrvatska"
+          year="2018-2020"
+        />
+        <Article
+          image={RibarskaLuka}
+          title="RIbarska luka"
+          description="Hrvatska"
+          year="2018-2020"
+        />
+        <Article
+          image={SudSplit}
+          title="Sud Split"
+          description="Hrvatska"
+          year="2018-2020"
+        />
+        <Article
+          image={RibarskaLuka}
+          title="RIbarska luka"
           description="Hrvatska"
           year="2018-2020"
         />

@@ -8,8 +8,33 @@ const Usluge = () => {
   return (
     <div className={styles.main}>
       {/* <div className={styles.razmak}></div> */}
-      <Section title="Usluge" />
+      {/* <Section title="Usluge" /> */}
       <div className={styles.usluge}>
+        <Article
+          image={Img3}
+          title="Tehničko tehnološke usluge kod proizvodnje betona"
+          // description="-Izrada dokumentacije tvorničke kontrole proizvodnje tvornica betona i predgotovljenih elemenata, te kamenoloma - separacija,
+          // - Izrada i održavanje receptura betonskih mješavina kod tekuće proizvodnje tvornice betona i predgotovljenih elemenata,
+          // - Izrada i prilagodba receptura betonskih mješavina prema zahtjevima projektne dokumentacije"
+          description={
+            <div>
+              <ul>
+                <li>
+                  Izrada dokumentacije tvorničke kontrole proizvodnje tvornica
+                  betona i predgotovljenih elemenata, te kamenoloma - separacija
+                </li>
+                <li>
+                  Izrada i održavanje receptura betonskih mješavina kod tekuće
+                  proizvodnje tvornice betona i predgotovljenih elemenata
+                </li>
+                <li>
+                  Izrada i prilagodba receptura betonskih mješavina prema
+                  zahtjevima projektne dokumentacije
+                </li>
+              </ul>
+            </div>
+          }
+        />
         <Article
           image={Img1}
           title="Laboratorijske usluge"
@@ -45,7 +70,7 @@ const Usluge = () => {
             </div>
           }
         />
-        <Article
+        {/* <Article
           image={Img3}
           title="Tehničko tehnološke usluge kod proizvodnje betona"
           // description="-Izrada dokumentacije tvorničke kontrole proizvodnje tvornica betona i predgotovljenih elemenata, te kamenoloma - separacija,
@@ -69,7 +94,7 @@ const Usluge = () => {
               </ul>
             </div>
           }
-        />
+        /> */}
         {/* <Article
           image={Img2}
           title="Project planning"

@@ -11,13 +11,13 @@ import Logo2 from "../../../public/Logonovo.png";
 function Header() {
   const [navbar, setNavbar] = useState(false);
 
-  const changeBackground = () => {
-    if (window.scrollY >= 80) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
+  // const changeBackground = () => {
+  //   if (window.scrollY >= 80) {
+  //     setNavbar(true);
+  //   } else {
+  //     setNavbar(false);
+  //   }
+  // };
   const toggleNavbar = () => {
     setNavbar(!navbar);
   };
@@ -25,11 +25,12 @@ function Header() {
   const closeNavbar = () => {
     setNavbar(false);
   };
-  window.addEventListener("scroll", changeBackground);
+  // window.addEventListener("scroll", changeBackground);
 
   return (
     <div className={styles.main}>
-      <nav className={navbar ? styles.navbarActive : styles.navbar}>
+      {/* <nav className={navbar ? styles.navbarActive : styles.navbar}> */}
+      <nav className={styles.navbar}>
         <div className={styles.navbarLeft}>
           <a href="/">
             <img src={Logo1} className={styles.logo}></img>
