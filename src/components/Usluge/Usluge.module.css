@@ -9,5 +9,12 @@
 .main{
     width: 90%;
     margin: 0 auto;
-
 }
+
+/* @media (max-width:972px){
+    .usluge{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+} */

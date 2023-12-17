@@ -23,8 +23,7 @@
 .description{
     font-size: 17px;
     font-family: "poppins", sans-serif;
-    max-width: 100%;
-   
+    /* max-width: 100%; */
 }
 
 .info{
@@ -33,8 +32,24 @@
     justify-content: space-between;
     margin: 0px;
 }
-.year{
-    font-size: 17px;
-    font-family: "poppins", sans-serif;
 
-}
+    
+/* @media (max-width: 768px) {
+    .article {
+      margin-top: 50px;
+      width: 90%; /* Prilagodba širine na mobilnim uređajima 
+      padding: 0px 5px; 
+    }
+  
+    .title {
+      font-size: 20px; /* Prilagodba veličine fonta za naslov na mobilnim uređajima 
+    }
+  
+    .description {
+      font-size: 14px; 
+      max-width: 100%;/* Prilagodba veličine fonta za opis na mobilnim uređajima 
+    }
+  
+    .image {
+      margin-bottom: 5px; 
+  } */

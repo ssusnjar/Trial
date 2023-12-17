@@ -76,4 +76,7 @@
     .parent{
         justify-content: center;
     }
+    .title{
+        font-size: 40px;
+    }
 }
