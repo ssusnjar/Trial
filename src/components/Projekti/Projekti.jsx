@@ -7,11 +7,18 @@ import Pelješac from "../../../public/PelješacPristup.png";
 import Sinj from "../../../public/SportskaDvoranaSinj.png";
 import RibarskaLuka from "../../../public/RibarskaLukaBrizine.png";
 import SudSplit from "../../../public/OpcinskiSudSplit.png";
+import OSPujanke from "../../../src/assets/OSPujanke.png";
+import Reciklazno from "../../../src/assets/ReciklažnoPujanke.png";
+import VilaDalmacija from "../../../src/assets/Vila Dalmacija.png";
+import Karavanke from "../../../src/assets/TunelKaravanke.png";
+import Maslacak from "../../../src/assets/VrtićMaslačak .png";
+import Lamjana from "../../../src/assets/Lamjana.png";
+import Liburnska from "../../../src/assets/Liburnska.png";
 
 const Projekti = () => {
   return (
     <div>
-      {/* <Section title="Projekti" /> */}
+      <Section title="Projekti" />
       <div className={styles.usluge}>
         <Article
           image={Supetar}
@@ -21,69 +28,69 @@ const Projekti = () => {
         />
         <Article
           image={Pelješac}
-          title="Pelješac"
+          title="Pelješac s pristupnim cestama na D8 i D414"
           description="Hrvatska"
-          year="2018-2020"
+          year="2022"
         />
         <Article
           image={Sinj}
-          title="Sinj"
+          title="Sportska dvorana Sinj"
           description="Hrvatska"
-          year="2018-2020"
+          year="2018"
         />
         <Article
           image={RibarskaLuka}
-          title="RIbarska luka"
+          title="RIbarska luka Brižine"
           description="Hrvatska"
-          year="2018-2020"
+          year="2021"
         />
         <Article
           image={SudSplit}
-          title="Sud Split"
+          title="Općinski sud u Splitu"
           description="Hrvatska"
-          year="2018-2020"
+          year="2023"
         />
         <Article
-          image={RibarskaLuka}
-          title="RIbarska luka"
+          image={Reciklazno}
+          title="Reciklažno dvorište Pujanke"
           description="Hrvatska"
-          year="2018-2020"
+          year="2023"
         />
         <Article
-          image={Supetar}
-          title="DVD Supetar"
+          image={VilaDalmacija}
+          title="Vila Dalmacija"
           description="Hrvatska"
-          year="2020-2022"
+          year="2018"
         />
         <Article
-          image={Pelješac}
-          title="Pelješac"
+          image={Maslacak}
+          title="Vrtić- Dugopoljski Maslačak"
           description="Hrvatska"
-          year="2018-2020"
+          year="2023"
         />
         <Article
-          image={Sinj}
+          image={OSPujanke}
           title="Sinj"
-          description="Hrvatska"
-          year="2018-2020"
+          description="Osnovna Škola Pujanke"
+          year="2020"
         />
         <Article
-          image={RibarskaLuka}
-          title="RIbarska luka"
-          description="Hrvatska"
-          year="2018-2020"
+          image={Karavanke}
+          title="Tunel Karavanke"
+          description="Slovenija"
+          year="2021"
         />
         <Article
-          image={SudSplit}
-          title="Sud Split"
+          image={Liburnska}
+          title="Rekonstrukcija Liburnske obale Zadar"
           description="Hrvatska"
-          year="2018-2020"
+          year="2021"
         />
         <Article
-          image={RibarskaLuka}
-          title="RIbarska luka"
+          image={Lamjana}
+          title="RIbarska luka Vela Lamjana"
           description="Hrvatska"
-          year="2018-2020"
+          year="2020"
         />
       </div>
     </div>

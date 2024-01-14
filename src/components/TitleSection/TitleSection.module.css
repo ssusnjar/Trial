@@ -1,10 +1,9 @@
 .section{
-    min-height:35vh;
-    background: url('../../assets/section.png');
+    min-height:41vh;
+    background: url('src/assets/naslovnaSlika.png');
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: center;
     width: 100%;
 }
 
@@ -13,5 +12,5 @@
     font-size: 70px;
     max-width: 64%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 130px;
 }

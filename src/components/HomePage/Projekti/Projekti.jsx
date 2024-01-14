@@ -15,9 +15,9 @@ const Projekti = () => {
         <div className={styles.column}>
           <img src={icon} className={styles.icon}></img>
           <div className={styles.txt}>
-            <h3 className={styles.title2}>
+            <p className={styles.title2}>
               Tehničko-tehnološke usluge kod proizvodnje betona
-            </h3>
+            </p>
             {/* <p className={styles.paragraph}>
               Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih
               Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih
@@ -27,19 +27,18 @@ const Projekti = () => {
         <div className={styles.column}>
           <img src={icon} className={styles.icon}></img>
           <div className={styles.txt}>
-            <h3 className={styles.title2}> Ispitne metode laboratorija</h3>
-            {/* <p className={styles.paragraph}>
-              Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih
-              Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih
-            </p> */}
+            <p className={styles.title2}>
+              {" "}
+              Laboratorijsko i terensko ispitivanje građevinskih materijala
+            </p>
           </div>
         </div>
         <div className={styles.column}>
           <img src={icon} className={styles.icon}></img>
           <div className={styles.txt}>
-            <h3 className={styles.title2}>
+            <p className={styles.title2}>
               Projektiranje i nadzor geotehničkih konstrukcija
-            </h3>
+            </p>
             {/* <p className={styles.paragraph}>
               Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih
               Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih

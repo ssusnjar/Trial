@@ -5,8 +5,7 @@ import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import Logo1 from "../../assets/download.svg";
-import Logo2 from "../../../public/Logonovo.png";
+import Logo3 from "../../assets/trialLogo.svg";
 
 function Header() {
   const [navbar, setNavbar] = useState(false);
@@ -33,7 +32,7 @@ function Header() {
       <nav className={styles.navbar}>
         <div className={styles.navbarLeft}>
           <a href="/">
-            <img src={Logo1} className={styles.logo}></img>
+            <img src={Logo3} className={styles.logo}></img>
           </a>
         </div>
 

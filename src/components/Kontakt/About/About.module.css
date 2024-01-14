@@ -1,15 +1,25 @@
 .about{
    width: 30%;
     margin: 0 auto;
-   
-    
-}
-.line{
-    display: flex;
-    
 }
 
+.line{
+    display: flex;
+}
+
+
+.text{
+    display: flex ;
+    flex-direction: column;
+}
 .description{
+    font-family: "popins", sans-serif;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.description2{
     font-family: "popins", sans-serif;
     font-size: 20px;
 }

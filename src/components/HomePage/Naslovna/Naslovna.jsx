@@ -6,7 +6,12 @@ const Naslovna = () => {
     <div className={styles.main}>
       <div className={styles.header}>
         <div className={styles.text}>
-          <p className={styles.title}>Gradnja s najvišim standardima</p>
+          <p className={styles.title}>
+            Za inženjerstvo i s njim povezano tehničko savjetovanje
+          </p>
+          <p className={styles.title2}>
+            Ispitivanje građevinskih materijala i stručni nadzor
+          </p>
         </div>
       </div>
       <div className={styles.numbers}>
