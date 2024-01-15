@@ -4,11 +4,14 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    font-family: 'Montserrat',sans-serif;   
     
 }
 
 .title{
-    font-size: 50px;
+    font-size: 40px;
+    font-weight:bolder;
+    margin-bottom: 60px;
 }
 
 .main{
@@ -29,17 +32,13 @@
     margin: 0px 10px;
     padding-bottom: 30px;
 }
-.txt{
-    font-family: poppins;
-}
+
 
 
 .title2{
-    font-size: 20px;
+    font-size: 18px;
 }
-.paragraph{
-    font-size: 15px;
-}
+
 .button{
     background-color: var(--main-color);
     border: none;

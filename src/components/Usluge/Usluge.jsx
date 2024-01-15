@@ -7,16 +7,12 @@ import { Img1, Img2, Img3 } from "../../assets";
 const Usluge = () => {
   return (
     <div>
-      {/* <div className={styles.razmak}></div> */}
       <Section title="Usluge" />
       <div className={styles.main}>
         <div className={styles.usluge}>
           <Article
             image={Img3}
             title="Tehničko tehnološke usluge kod proizvodnje betona"
-            // description="-Izrada dokumentacije tvorničke kontrole proizvodnje tvornica betona i predgotovljenih elemenata, te kamenoloma - separacija,
-            // - Izrada i održavanje receptura betonskih mješavina kod tekuće proizvodnje tvornice betona i predgotovljenih elemenata,
-            // - Izrada i prilagodba receptura betonskih mješavina prema zahtjevima projektne dokumentacije"
             description={
               <div>
                 <ul>

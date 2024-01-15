@@ -7,10 +7,13 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    font-family: 'Montserrat',sans-serif;
 }
 
 .title{
-    font-size: 50px;
+    font-size: 40px;
+    font-weight:bolder;
+    margin-bottom: 60px;
 }
 
 .main{
@@ -34,12 +37,12 @@
 }
 
 .title2{
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
-.paragraph{
-    font-size: 15px;
-}
+
 
 .button{
     background-color: var(--main-color);

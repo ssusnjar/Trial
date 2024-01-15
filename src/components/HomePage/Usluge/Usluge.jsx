@@ -13,7 +13,7 @@ const scrollToTop = () => {
 const Usluge = () => {
   return (
     <div className={styles.usluge}>
-      <h1 className={styles.title}> Posljednji projekti</h1>
+      <h1 className={styles.title}> POSLJEDNJI PROJEKTI</h1>
       <div className={styles.main}>
         <div className={styles.column}>
           <img src={Supetar} className={styles.icon}></img>

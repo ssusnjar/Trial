@@ -10,7 +10,7 @@ const scrollToTop = () => {
 const Projekti = () => {
   return (
     <div className={styles.usluge}>
-      <h1 className={styles.title}> Neke od usluga</h1>
+      <h1 className={styles.title}> NEKE OD USLUGA</h1>
       <div className={styles.main}>
         <div className={styles.column}>
           <img src={icon} className={styles.icon}></img>
@@ -18,10 +18,6 @@ const Projekti = () => {
             <p className={styles.title2}>
               Tehničko-tehnološke usluge kod proizvodnje betona
             </p>
-            {/* <p className={styles.paragraph}>
-              Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih
-              Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih
-            </p> */}
           </div>
         </div>
         <div className={styles.column}>
@@ -39,10 +35,6 @@ const Projekti = () => {
             <p className={styles.title2}>
               Projektiranje i nadzor geotehničkih konstrukcija
             </p>
-            {/* <p className={styles.paragraph}>
-              Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih
-              Sanacije svih vrsta konstrukcija i krovova; adaptacije stambenih
-            </p> */}
           </div>
         </div>
       </div>

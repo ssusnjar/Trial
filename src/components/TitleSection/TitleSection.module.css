@@ -1,6 +1,6 @@
 .section{
     min-height:41vh;
-    background: url('src/assets/NaslovnaSlika.png');
+    background: url('/naslovna.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -9,7 +9,7 @@
 
 .title{
     color: white;
-    font-size: 70px;
+    font-size: 60px;
     max-width: 64%;
     margin: 0 auto;
     padding-top: 130px;

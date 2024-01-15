@@ -1,5 +1,10 @@
 import React from "react";
 import styles from "./Naslovna.module.css";
+import { Link } from "react-router-dom";
+
+const scrollToTop = () => {
+  window.scrollTo(0, 0);
+};
 
 const Naslovna = () => {
   return (
@@ -12,6 +17,14 @@ const Naslovna = () => {
           <p className={styles.title2}>
             Ispitivanje građevinskih materijala i stručni nadzor
           </p>
+          <div className={styles.buttons}>
+            <Link to="/Kontakt" onClick={scrollToTop}>
+              <button className={styles.button1}>KONTAKT</button>
+            </Link>
+            <Link to="/oNama" onClick={scrollToTop}>
+              <button className={styles.button2}>O NAMA</button>
+            </Link>
+          </div>
         </div>
       </div>
       <div className={styles.numbers}>
