@@ -1,6 +1,6 @@
 .section{
     min-height:41vh;
-    background: url('src/assets/naslovnaSlika.png');
+    background: url('src/assets/NaslovnaSlika.png');
     background-size: cover;
     background-position: center;
     display: flex;
