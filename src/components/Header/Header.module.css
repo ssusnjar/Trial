@@ -4,7 +4,7 @@
 
 .navbar{
     background-color: rgba(255,255,255,0.4);
-    width: 100%;
+    width: 100vw;
     height: 85px;
     display: flex;
     justify-content: space-between;
@@ -22,14 +22,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px;
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
     /* z-index: 100; */
-    width: 100%;
+    width: 100vw;
     height: 100px;
-    margin: 0 auto; 
+    /* margin: 0 auto;  */
     background-color:white;
     backdrop-filter: blur(10px); 
     margin-bottom: 300px;
@@ -37,8 +35,8 @@
 
 .logo{
     padding: 0 100px;
-    max-width: 75%;
-  height: auto;
+    max-height: 100px;
+    height: auto;
 }
 
 .navbarLeft{
@@ -117,13 +115,17 @@ nav ul li{
 
     ul{
         position: fixed;
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         background-color: var(--main-color);
         /* top:80px; */
         left:-100%;
         text-align: center;
         transition: all .5s;
+    }
+
+    .logo{
+        max-height: 70px;
     }
 
     nav ul li{
