@@ -71,7 +71,7 @@ const Projekti = () => {
         <Article
           image={OSPujanke}
           title="Sinj"
-          description="Osnovna Škola Pujanke"
+          description="Osnovna Škola Sinj"
           year="2020"
         />
         <Article
