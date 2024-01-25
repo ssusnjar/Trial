@@ -1,13 +1,12 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import Logo from "../../assets/logoBili.svg";
-import Logo2 from "../../../public/Logonovo.png";
+import Logo1 from "../../../public/Logo.png";
 
 const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.column}>
-        <img src={Logo} className={styles.Logo}></img>
+        <img src={Logo1} className={styles.Logo}></img>
       </div>
       <div className={styles.column}>
         <h3 className={styles.title}>ADRESA I SJEDIŠTE</h3>

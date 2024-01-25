@@ -10,11 +10,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px;
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     background-color: white;
     border-bottom: 2px solid #e1e4e5; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
@@ -39,7 +37,8 @@
 
 .logo{
     padding: 0 100px;
-    max-width: 400px;
+    max-width: 75%;
+  height: auto;
 }
 
 .navbarLeft{

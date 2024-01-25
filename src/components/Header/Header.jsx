@@ -1,11 +1,10 @@
 import React from "react";
-import Logo from "../../assets/CompanyName.svg";
 import styles from "./Header.module.css";
 import { NavLink } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import Logo3 from "../../assets/trialLogo.svg";
+import Logo1 from "../../../public/Logo.png";
 
 function Header() {
   const [navbar, setNavbar] = useState(false);
@@ -32,7 +31,7 @@ function Header() {
       <nav className={styles.navbar}>
         <div className={styles.navbarLeft}>
           <a href="/">
-            <img src={Logo3} className={styles.logo}></img>
+            <img src={Logo1} className={styles.logo}></img>
           </a>
         </div>
 
