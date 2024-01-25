@@ -12,6 +12,7 @@
     padding: 10px 10px;
     position: sticky;
     top: 0;
+    /* margin: 0 auto; */
     background-color: white;
     border-bottom: 2px solid #e1e4e5; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
@@ -23,9 +24,10 @@
     padding: 10px 10px;
     position: sticky;
     top: 0;
+    /* z-index: 100; */
     width: 100vw;
     height: 100px;
-
+    /* margin: 0 auto;  */
     background-color:white;
     backdrop-filter: blur(10px); 
     margin-bottom: 300px;
@@ -48,14 +50,7 @@
     
 }
 
-nav li{
-    display: inline-block;
-    line-height: 80px;
-    margin:0 5px;
-    text-transform: uppercase;
-}
-
-.navbarList{
+ nav  .navbarList li{
     display: inline-block;
     line-height: 80px;
     margin:0 5px;
@@ -133,11 +128,7 @@ nav li{
         max-height: 70px;
     }
 
-    nav li{
-        display: block;
-    }
-
-    .navbarList{
+    nav .navbarList  li{
         display: block;
     }
 

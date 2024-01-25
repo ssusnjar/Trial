@@ -8,3 +8,14 @@
     margin-bottom: 130px;
 }
 
+
+@media (max-width:972px){
+    .usluge{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+}

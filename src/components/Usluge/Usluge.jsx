@@ -38,7 +38,9 @@ const Usluge = () => {
             title="Laboratorijske usluge"
             description={
               <div>
-                <h4>Ispitne metode laboratorija obuhvaćaju:</h4>
+                <h4 className={styles.title}>
+                  Ispitne metode laboratorija obuhvaćaju:
+                </h4>
                 <ul>
                   <li>svježi beton</li>
                   <li>očvrsli beton</li>

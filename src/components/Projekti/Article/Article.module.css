@@ -38,3 +38,12 @@
     font-family: "poppins", sans-serif;
 
 }
+
+
+
+@media (max-width:972px){
+    .article{
+       margin: 30px auto;
+        width: 80%;
+    }
+}

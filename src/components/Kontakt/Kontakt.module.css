@@ -5,13 +5,25 @@
     align-items: center;
    margin-top: 80px;
    margin-bottom: 130px;
+   
   
 }
-
-
 .location{
     margin-bottom: 50px;
 }
 .line{
     width: 30%;
+}
+
+.googleMap {
+    width: 800px; 
+    height: 450px; 
+}
+
+@media (max-width:972px){
+    .googleMap {
+        width: 90%; 
+        height: 250px; 
+    }
+
 }
