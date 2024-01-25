@@ -14,7 +14,7 @@ const Footer = () => {
         <p className={styles.text}>Ulica Velimira Terzića 17</p>
         <p className={styles.text}>21 000 Split</p>
         <p className={styles.title2}>Laboratorij:</p>
-        <p className={styles.text}>Ulica Velimira Terzića 17</p>
+        <p className={styles.text}>Sv Liberana 48</p>
         <p className={styles.text}>21 000 Split</p>
       </div>
       <div className={styles.column}>

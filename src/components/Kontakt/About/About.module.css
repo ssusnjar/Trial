@@ -4,6 +4,7 @@
 
 .line{
     display: flex;
+    margin: 30px auto;
 }
 
 .text{
@@ -19,6 +20,8 @@
 
 .description2{
     font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 .descriptionTitle{
