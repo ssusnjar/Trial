@@ -15,7 +15,8 @@ const Naslovna = () => {
             ZA INŽENJERSTVO I S NJIM POVEZANO TEHNIČKO SAVJETOVANJE
           </p>
           <p className={styles.title2}>
-            Ispitivanje građevinskih materijala i stručni nadzor
+            {/* Ispitivanje građevinskih materijala i stručni nadzor */}
+            ISPITIVANJE GRAĐEVINSKIH MATERIJALA I STRUČNI NADZOR
           </p>
           <div className={styles.buttons}>
             <Link to="/Kontakt" onClick={scrollToTop}>
