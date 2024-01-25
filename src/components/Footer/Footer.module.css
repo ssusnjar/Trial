@@ -12,7 +12,14 @@
 }
 .Logo{
     max-width: 120%;
-    background-color: white;  
+    background-color: white;
+    margin: 50px 0;  
+}
+
+.title2{
+    font-weight:900;
+    font-size: 20px;
+    line-height: 40px;
 }
 
 .column{
@@ -48,6 +55,17 @@
     
     .column {
       width: 100%;
+    }
+
+    .text{
+        font-size: 14px;
+        line-height: 10px;
+    }
+
+    .title2{
+        font-size: 17px;
+        line-height: 30px;
+        font-weight:900;
     }
 
 

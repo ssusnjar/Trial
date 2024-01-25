@@ -23,6 +23,7 @@
     font-weight: 600;
     line-height: 1.5em;
     font-family: 'Montserrat',sans-serif;
+    margin-bottom: 40px;
 }
 
 .title2{
@@ -67,7 +68,7 @@
 
 .num{
     margin: 0;
-    font-size: 48px;
+    font-size: 35px;
     font-weight: 700;
     font-family: 'Rubik';
 }
@@ -111,11 +112,13 @@
         font-size: 28px;
        margin-top: 70px;
         font-weight: 600;
+        width: 95vw;
      
     }
     .title2{
         font-size: 28px;
         font-weight: 500;
+        width: 95vw;
     }
     .numbers{
         width: 100%;
@@ -134,7 +137,6 @@
 
     .button1{
        margin-right: 20px;
-        
     }
 }
 

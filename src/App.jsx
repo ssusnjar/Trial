@@ -10,7 +10,6 @@ import {
   Article1,
   TitleSection,
   Text,
-  Images,
   About,
   Usluge,
   Projekti,

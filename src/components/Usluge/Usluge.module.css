@@ -12,10 +12,10 @@
     margin-bottom: 80px;
 }
 
-/* @media (max-width:972px){
+@media (max-width:972px){
     .usluge{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-} */
+}

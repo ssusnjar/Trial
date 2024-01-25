@@ -2,7 +2,6 @@ import Article from "./Projekti/Article/Article";
 import Article1 from "./Usluge/Aritcle/Article";
 import TitleSection from "./TitleSection/TitleSection";
 import Text from "./oNama/Text/Text";
-import Images from "./oNama/Images/Images";
 import About from "./Kontakt/About/About";
 import Usluge from "./HomePage/Usluge/Usluge";
 import Projekti from "./HomePage/Projekti/Projekti";
@@ -21,7 +20,6 @@ export {
   Article1,
   TitleSection,
   Text,
-  Images,
   About,
   Usluge,
   Projekti,

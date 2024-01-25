@@ -1,16 +1,16 @@
 .main{
-    margin-top:100px ;
-    margin-bottom: 200px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .firstTxt{
     margin: 0 auto ;
-    width: 80%;
+    width: 65%;
     padding-bottom: 20px;
     font-size: 18px;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     text-align: start;
+    line-height: 30px;
 }
 
 .background{
@@ -18,20 +18,14 @@
     padding: 0.2% 0;
 }
 
-.secondTxt{
-    margin: 100px auto ;
-    width: 80%;
-}
+@media screen and (max-width: 500px) {
 
-.list{
-    font-size: 18px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    text-align: start;
-}
-
-.title{
-    font-size: 26px;
-    font-weight: 600;
-    
+    .main{
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .firstTxt{
+        width: 70%;
+        font-size: 15px;
+    }
 }

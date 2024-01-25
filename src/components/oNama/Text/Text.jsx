@@ -4,7 +4,6 @@ import Styles from "./Text.module.css";
 const Text = () => {
   return (
     <div className={Styles.main}>
-      {" "}
       <p className={Styles.firstTxt}>
         Tvrtka Trial d.o.o., osnovana 2015. godine, proizlazi iz obilnog
         iskustva stečenog tijekom dugogodišnjeg rada na ispitivanju građevinskih
@@ -28,22 +27,6 @@ const Text = () => {
         S predanošću kvaliteti i inovacijama, nastavljamo graditi mostove između
         iskustva i budućnosti u građevinskoj industriji.
       </p>
-      {/* <div className={Styles.background}>
-        <div className={Styles.secondTxt}>
-          <h3 className={Styles.title}>Što nas izdvaja?</h3>
-          <div className={Styles.list}>
-            <ul>
-              <li>Usmjerenost na potrebe Investitora</li>
-              <li>Stalno poboljšanje kvalitete usluga</li>
-              <li>Zadovoljstvo izvršenim poslom</li>
-              <li>Konkurentan položaj na tržištu</li>
-              <li>Zapošljavanje i dodatno educiranje stručnog osoblja</li>
-              <li>Briga o zaštiti okoliša, zdravlja i sigurnost na radu</li>
-              <li>Očuvanje prirodnih resursa</li>
-            </ul>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

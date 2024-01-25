@@ -1,4 +1,4 @@
-.article{
+ .article{
     margin-top: 100px;
     width: 30%;
     display: flex;
@@ -22,34 +22,39 @@
 
 .description{
     font-size: 17px;
-    font-family: "poppins", sans-serif;
-    /* max-width: 100%; */
-}
+    line-height: 30px;
+     max-width: 100%; 
+} 
 
-.info{
+ .info{
     display: flex;
     width: 100%;
     justify-content: space-between;
     margin: 0px;
-}
+} 
 
-    
-/* @media (max-width: 768px) {
+     @media (max-width: 768px) {
     .article {
       margin-top: 50px;
-      width: 90%; /* Prilagodba širine na mobilnim uređajima 
+      width: 90%;
       padding: 0px 5px; 
     }
   
     .title {
-      font-size: 20px; /* Prilagodba veličine fonta za naslov na mobilnim uređajima 
+      width: 80%;
+      margin: 0 auto;
+      font-size: 20px; 
     }
   
     .description {
       font-size: 14px; 
-      max-width: 100%;/* Prilagodba veličine fonta za opis na mobilnim uređajima 
+      line-height: 20px;
+      max-width: 90%;
     }
   
     .image {
-      margin-bottom: 5px; 
-  } */
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 30px; 
+  } 
+}

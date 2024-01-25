@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "./Usluge.module.css";
-import icon from "../../../assets/icon.svg";
-import { Img1, Img2, Img3 } from "../../../assets";
 import { Link } from "react-router-dom";
 import Supetar from "../../../../public/DVDSupetar.png";
 import Pelješac from "../../../../public/PelješacPristup.png";

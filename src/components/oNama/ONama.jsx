@@ -9,9 +9,6 @@ const ONama = () => {
       <Section title="O nama" />
       <div className={Styles.main}>
         <Text />
-        {/* <div className={Styles.pictures}>
-          <Images />
-        </div> */}
       </div>
     </div>
   );

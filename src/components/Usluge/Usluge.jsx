@@ -36,7 +36,6 @@ const Usluge = () => {
           <Article
             image={Img1}
             title="Laboratorijske usluge"
-            // description="Ispitne metode laboratorija obuhvaćaju: -svježi beton, -očvrsli beton, -agregat, -.geotehnički istražni radovi"
             description={
               <div>
                 <h4>Ispitne metode laboratorija obuhvaćaju:</h4>
@@ -52,7 +51,6 @@ const Usluge = () => {
           <Article
             image={Img2}
             title="Projektiranje i nadzor geotehničkih konstrukcija"
-            // description="-Izrada geotehničkih elaborata, -Izrada idejnog rješenja, glavnog projekta i izvedbenog projekta geotehničkih konstrukcija, -usluge stručnog nadzora za izvođenje građevinskih radova"
             description={
               <div>
                 <ul>
