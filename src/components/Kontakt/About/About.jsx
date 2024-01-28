@@ -28,6 +28,13 @@ const About = () => {
           <p className={styles.description2}>info@trial.hr</p>
         </div>
       </div>
+      <div className={styles.line}>
+        <img src={phone} className={styles.iconT}></img>
+        <div className={styles.text}>
+          <p className={styles.descriptionTitle}>Telefon:</p>
+          <p className={styles.description2}>+385 97 708 5929</p>
+        </div>
+      </div>
     </div>
   );
 };
