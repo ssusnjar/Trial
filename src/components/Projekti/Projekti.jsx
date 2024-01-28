@@ -34,7 +34,7 @@ const Projekti = () => {
         />
         <Article
           image={Sinj}
-          title="Sportska dvorana Sinj"
+          title="Sportska dvorana Pujanke"
           description="Hrvatska"
           year="2018"
         />
