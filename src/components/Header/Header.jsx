@@ -4,7 +4,8 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import Logo1 from "../../../public/Logo.png";
+import Logo1 from "../../../public/Logo1.png";
+import Logo from "../../../public/trialLogo.svg";
 
 function Header() {
   const [navbar, setNavbar] = useState(false);

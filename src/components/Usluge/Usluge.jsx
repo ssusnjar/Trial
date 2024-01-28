@@ -3,6 +3,10 @@ import styles from "./Usluge.module.css";
 import Section from "../TitleSection/TitleSection";
 import Article from "./Aritcle/Article";
 import { Img1, Img2, Img3 } from "../../assets";
+import Usluga1 from "../../../public/Usluga1.png";
+import Usluga2 from "../../../public/Usluga2.png";
+import Usluga3 from "../../../public/Usluga3.png";
+import Usluga4 from "../../../public/Usluga4.png";
 
 const Usluge = () => {
   return (
@@ -11,7 +15,7 @@ const Usluge = () => {
       <div className={styles.main}>
         <div className={styles.usluge}>
           <Article
-            image={Img3}
+            image={Usluga2}
             title="Tehničko tehnološke usluge kod proizvodnje betona"
             description={
               <div>
@@ -34,7 +38,7 @@ const Usluge = () => {
             }
           />
           <Article
-            image={Img1}
+            image={Usluga3}
             title="Laboratorijske usluge"
             description={
               <div>
@@ -51,7 +55,7 @@ const Usluge = () => {
             }
           />
           <Article
-            image={Img2}
+            image={Usluga1}
             title="Projektiranje i nadzor geotehničkih konstrukcija"
             description={
               <div>
@@ -63,6 +67,21 @@ const Usluge = () => {
                   </li>
                   <li>
                     Usluge stručnog nadzora za izvođenje građevinskih radova
+                  </li>
+                </ul>
+              </div>
+            }
+          />
+          <Article
+            image={Usluga4}
+            title="Kontrola kvalitete betona kod izvođenja betonskih konstrukcija"
+            description={
+              <div>
+                <ul>
+                  <li>Izrada plana betoniranja i nadzornih radnji izvođača</li>
+                  <li>Izrada završne ocjene o kvaliteti ugrađenog betona</li>
+                  <li>
+                    Naknadno ispitivanje betona u betonskim konstrukcijama
                   </li>
                 </ul>
               </div>

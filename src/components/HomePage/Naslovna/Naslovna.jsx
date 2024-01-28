@@ -12,10 +12,9 @@ const Naslovna = () => {
       <div className={styles.header}>
         <div className={styles.text}>
           <p className={styles.title}>
-            ZA INŽENJERSTVO I S NJIM POVEZANO TEHNIČKO SAVJETOVANJE
+            INŽENJERSTVO I S NJIM POVEZANO TEHNIČKO SAVJETOVANJE
           </p>
           <p className={styles.title2}>
-            {/* Ispitivanje građevinskih materijala i stručni nadzor */}
             ISPITIVANJE GRAĐEVINSKIH MATERIJALA I STRUČNI NADZOR
           </p>
           <div className={styles.buttons}>
@@ -30,11 +29,11 @@ const Naslovna = () => {
       </div>
       <div className={styles.numbers}>
         <div className={styles.projectsNumber}>
-          <p className={styles.num}>37</p>
+          <p className={styles.num}>185</p>
           <p className={styles.txt}>Projektata</p>
         </div>
         <div className={styles.yearNumber}>
-          <p className={styles.num}>15+</p>
+          <p className={styles.num}>20+</p>
           <p className={styles.txt}>Godina iskustva</p>
         </div>
       </div>

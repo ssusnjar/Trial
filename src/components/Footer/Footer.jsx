@@ -18,8 +18,11 @@ const Footer = () => {
         <p className={styles.text}>21 000 Split</p>
       </div>
       <div className={styles.column}>
-        <h3 className={styles.title}>KONTAKT</h3>
-        <p className={styles.text}>info@trial.hr</p>
+        <h3 className={styles.title}>KONTAKT </h3>
+        <p className={styles.title2}>TRIAL d.o.o.</p>
+        <p className={styles.text}>OIB: 64026545644</p>
+        <p className={styles.text}>Mail: info@trial.hr</p>
+        <p className={styles.text}>Telefon: +385 97 708 5929</p>
       </div>
     </div>
   );
