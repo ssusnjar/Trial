@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Usluge.module.css";
 import Section from "../TitleSection/TitleSection";
 import Article from "./Aritcle/Article";
-import { Img1, Img2, Img3 } from "../../assets";
 import Usluga1 from "../../../public/Usluga1.png";
 import Usluga2 from "../../../public/Usluga2.png";
 import Usluga3 from "../../../public/Usluga3.png";
