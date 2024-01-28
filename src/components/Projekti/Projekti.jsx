@@ -34,7 +34,7 @@ const Projekti = () => {
         />
         <Article
           image={Sinj}
-          title="Sportska dvorana Pujanke"
+          title="Sportska dvorana Sinj"
           description="Hrvatska"
           year="2018"
         />
@@ -70,7 +70,7 @@ const Projekti = () => {
         />
         <Article
           image={OSPujanke}
-          title="Osnovna Škola Sinj"
+          title="Osnovna Škola Pujanke"
           description="Hrvatska"
           year="2020"
         />
