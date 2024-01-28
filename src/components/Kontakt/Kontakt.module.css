@@ -26,4 +26,8 @@
         height: 250px; 
     }
 
+    .location{
+        display: flex;
+        justify-content: center;
+    }
 }
