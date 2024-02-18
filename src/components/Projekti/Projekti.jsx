@@ -2,16 +2,16 @@ import React from "react";
 import styles from "./Projekti.module.css";
 import Section from "../TitleSection/TitleSection";
 import Article from "./Article/Article";
-import Supetar from "../../../public/DVDSupetar.png";
-import Pelješac from "../../../public/PelješacPristup.png";
-import Sinj from "../../../public/SportskaDvoranaSinj.png";
-import RibarskaLuka from "../../../public/RibarskaLukaBrizine.png";
-import SudSplit from "../../../public/OpcinskiSudSplit.png";
+import Supetar from "../../assets/DVDSupetar.png";
+import Peljesac from "../../assets/PeljesacPristup.png"
+import Sinj from "../../assets//SportskaDvoranaSinj.png";
+import RibarskaLuka from "../../assets/RibarskaLukaBrizine.png";
+import SudSplit from "../../assets/OpcinskiSudSplit.png";
 import OSPujanke from "../../../src/assets/OSPujanke.png";
-import Reciklazno from "../../../src/assets/ReciklažnoPujanke.png";
+import Reciklazno from "../../../src/assets/ReciklaznoPujanke.png";
 import VilaDalmacija from "../../../src/assets/Vila Dalmacija.png";
 import Karavanke from "../../../src/assets/TunelKaravanke.png";
-import Maslacak from "../../../src/assets/VrtićMaslačak .png";
+import Maslacak from "../../../src/assets/VrticMaslacak .png";
 import Lamjana from "../../../src/assets/Lamjana.png";
 import Liburnska from "../../../src/assets/Liburnska.png";
 
@@ -27,7 +27,7 @@ const Projekti = () => {
           year="2020-2022"
         />
         <Article
-          image={Pelješac}
+          image={Peljesac}
           title="Pelješac s pristupnim cestama na D8 i D414"
           description="Hrvatska"
           year="2022"

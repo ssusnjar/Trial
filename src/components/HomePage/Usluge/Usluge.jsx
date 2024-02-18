@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Usluge.module.css";
 import { Link } from "react-router-dom";
-import Supetar from "../../../../public/DVDSupetar.png";
-import Pelješac from "../../../../public/PelješacPristup.png";
-import Sinj from "../../../../public/SportskaDvoranaSinj.png";
+import Supetar from "../../../assets/DVDSupetar.png";
+import Peljesac from "../../../assets/PeljesacPristup.png"
+import Sinj from "../../../assets/SportskaDvoranaSinj.png";
 
 const scrollToTop = () => {
   window.scrollTo(0, 0);
@@ -20,7 +20,7 @@ const Usluge = () => {
           </div>
         </div>
         <div className={styles.column}>
-          <img src={Pelješac} className={styles.icon}></img>
+          <img src={Peljesac} className={styles.icon}></img>
           <div className={styles.txt}>
             <h3 className={styles.title2}> Pelješac</h3>
           </div>

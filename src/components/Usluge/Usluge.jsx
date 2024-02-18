@@ -2,10 +2,10 @@ import React from "react";
 import styles from "./Usluge.module.css";
 import Section from "../TitleSection/TitleSection";
 import Article from "./Aritcle/Article";
-import Usluga1 from "../../../public/Usluga1.png";
-import Usluga2 from "../../../public/Usluga2.png";
-import Usluga3 from "../../../public/Usluga3.png";
-import Usluga4 from "../../../public/Usluga4.png";
+import Usluga1 from "../../assets//Usluga1.png";
+import Usluga2 from "../../assets/Usluga2.png";
+import Usluga3 from "../../assets/Usluga3.png";
+import Usluga4 from "../../assets/Usluga4.png";
 
 const Usluge = () => {
   return (
