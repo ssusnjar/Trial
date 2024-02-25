@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./About.module.css";
-import { location, mail, phone } from "../../../assets";
+import  location  from '../../../assets/location.svg';
+import  mail  from '../../../assets/mail.svg';
+import  phone  from '../../../assets/phone.svg';
+
 const About = () => {
   return (
     <div className={styles.about}>

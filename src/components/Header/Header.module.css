@@ -1,9 +1,9 @@
-.main{
+.main {
     font-family: 'Montserrat', sans-serif;
 }
 
-.navbar{
-    background-color: rgba(255,255,255,0.4);
+.navbar {
+    background-color: rgba(255, 255, 255, 0.4);
     width: 100vw;
     height: 85px;
     display: flex;
@@ -12,66 +12,65 @@
     padding: 10px 10px;
     position: sticky;
     top: 0;
-    /* margin: 0 auto; */
     background-color: white;
-    border-bottom: 2px solid #e1e4e5; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #e1e4e5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
 }
-.navbarActive{
+
+.navbarActive {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px;
     position: sticky;
     top: 0;
-    /* z-index: 100; */
     width: 100vw;
     height: 100px;
-    /* margin: 0 auto;  */
-    background-color:white;
-    backdrop-filter: blur(10px); 
+    background-color: white;
+    backdrop-filter: blur(10px);
     margin-bottom: 300px;
 }
 
-.logo{
+.logo {
     padding: 0 100px;
     max-height: 100px;
     height: auto;
 }
 
-.navbarLeft{
+.navbarLeft {
     width: 40%;
 }
 
-.navbarList{
-   list-style:none;
+.navbarList {
+    list-style: none;
     margin-right: 20px;
     font-weight: bold;
-    
+
 }
 
- nav  .navbarList li{
+nav .navbarList li {
     display: inline-block;
     line-height: 80px;
-    margin:0 5px;
+    margin: 0 5px;
     text-transform: uppercase;
 }
 
 
-.active{
-    color:black;
+.active {
+    color: black;
     font-size: 14px;
     border-bottom: var(--main-color) 2px solid;
     padding: 7px 13px;
 }
 
-.inactive{
+.inactive {
     color: black;
     font-size: 14px;
     padding: 7px 13px;
 }
 
-.checkbtn{
+.checkbtn {
     font-size: 30px;
     color: black;
     display: flex;
@@ -81,69 +80,68 @@
     display: none;
 }
 
-.check{
+.check {
     display: none;
 }
 
 
-@media(max-width:1184px){
+@media(max-width:1184px) {
 
-    .logo{
+    .logo {
         padding-left: 50px;
     }
 
-    .active{
-        font-size: 16px;
-       
-    }
-    .inactive{
+    .active {
         font-size: 16px;
 
     }
-    .navbarList{
+
+    .inactive {
+        font-size: 16px;
+
+    }
+
+    .navbarList {
         padding: 0px;
         margin-right: 10px;
 
     }
 }
 
-@media(max-width:981px){
+@media(max-width:981px) {
 
-    .checkbtn{
+    .checkbtn {
         display: block;
     }
 
-    .navbarList{
+    .navbarList {
         position: fixed;
         width: 100vw;
         height: 100vh;
         background-color: var(--main-color);
-        /* top:80px; */
-        left:-100%;
+        left: -100%;
         text-align: center;
         transition: all .5s;
     }
 
-    .logo{
+    .logo {
         max-height: 70px;
     }
 
-    nav .navbarList  li{
+    nav .navbarList li {
         display: block;
     }
 
-    .active{
+    .active {
         font-size: 20px;
     }
 
-    .inactive{
+    .inactive {
         font-size: 20px;
     }
 
 
-   #check:checked ~ .navbarList {
-    left:0;
-  }
+    #check:checked~.navbarList {
+        left: 0;
+    }
 }
-
-
