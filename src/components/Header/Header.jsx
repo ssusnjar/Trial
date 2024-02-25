@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import Logo1 from "../../../public/Logo1.png";
+import Logo1 from '../../../src/assets/Logo.png';
 
 function Header() {
   const [navbar, setNavbar] = useState(false);
@@ -33,7 +33,7 @@ function Header() {
             checked={navbar}
             onChange={toggleNavbar}
           ></input>
-          <label for={styles.check} className={styles.checkbtn}>
+          <label htmlFor={styles.check} className={styles.checkbtn}>
             <FontAwesomeIcon icon={faBars} />
           </label>
           <ul className={styles.navbarList}>

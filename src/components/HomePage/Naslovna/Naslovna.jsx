@@ -30,7 +30,7 @@ const Naslovna = () => {
       <div className={styles.numbers}>
         <div className={styles.projectsNumber}>
           <p className={styles.num}>185</p>
-          <p className={styles.txt}>Projektata</p>
+          <p className={styles.txt}>Projekata</p>
         </div>
         <div className={styles.yearNumber}>
           <p className={styles.num}>20+</p>
